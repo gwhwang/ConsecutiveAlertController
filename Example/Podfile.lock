@@ -1,0 +1,16 @@
+PODS:
+  - ConsecutiveAlertController (0.1.0)
+
+DEPENDENCIES:
+  - ConsecutiveAlertController (from `../`)
+
+EXTERNAL SOURCES:
+  ConsecutiveAlertController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ConsecutiveAlertController: 2c95775011d8215e69ce65e882d4b84ffbc14637
+
+PODFILE CHECKSUM: 79d33b301325188e282ea2c231ca34b2e90b0c58
+
+COCOAPODS: 1.6.1

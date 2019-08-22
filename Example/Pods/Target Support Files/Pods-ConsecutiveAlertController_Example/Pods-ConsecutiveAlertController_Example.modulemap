@@ -1,0 +1,6 @@
+framework module Pods_ConsecutiveAlertController_Example {
+  umbrella header "Pods-ConsecutiveAlertController_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,804 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02BB0F9638052271916D79FB4FF6C2D6 /* Pods-ConsecutiveAlertController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EE7EF74484063F2DDA71460A664F2F /* Pods-ConsecutiveAlertController_Tests-dummy.m */; };
+		05B63598F374710E1D0A94C55E7A7D8F /* Pods-ConsecutiveAlertController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 551662A1B9474DDB0590E338BFD0D90C /* Pods-ConsecutiveAlertController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A96A780D3FFCD19D9BD2ECD6FBDCE44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5236C124E33A985581E96ED1E0DBD20A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5AA28AC6230E4F6000CEFCD2 /* ConsecutiveAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA28AC4230E4F6000CEFCD2 /* ConsecutiveAlertController.swift */; };
+		5AA28AC7230E4F6000CEFCD2 /* ConsecutiveAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA28AC4230E4F6000CEFCD2 /* ConsecutiveAlertController.swift */; };
+		5AA28AC8230E4F6000CEFCD2 /* ConsecutiveAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA28AC4230E4F6000CEFCD2 /* ConsecutiveAlertController.swift */; };
+		5AA28AC9230E4F6000CEFCD2 /* ConsecutiveAlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA28AC5230E4F6000CEFCD2 /* ConsecutiveAlertManager.swift */; };
+		5AA28ACA230E4F6000CEFCD2 /* ConsecutiveAlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA28AC5230E4F6000CEFCD2 /* ConsecutiveAlertManager.swift */; };
+		5AA28ACB230E4F6000CEFCD2 /* ConsecutiveAlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA28AC5230E4F6000CEFCD2 /* ConsecutiveAlertManager.swift */; };
+		7CFA8D1841BD52E5C210FA66481C4B5B /* ConsecutiveAlertController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 683119493E04211A29E40B31D9DE304D /* ConsecutiveAlertController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA7938BD4B6CDECCDDEB637AAFF7F7D /* ConsecutiveAlertController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E8D9A3A451E2EF9A27FEA9A055E25E /* ConsecutiveAlertController-dummy.m */; };
+		B8E1B7D986ADE247937357B4BDB24300 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BFE6D69A1227F983F3C5DDC658B695F9 /* Pods-ConsecutiveAlertController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B4DB746B2B2727C37D753E22764D7B8 /* Pods-ConsecutiveAlertController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC57DBDEBCA89A18414219839C619A8C /* Pods-ConsecutiveAlertController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 211AFA8C456CD9683EF8499DCB66500A /* Pods-ConsecutiveAlertController_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C5A4E52C5D4FB6C24A51DAF65C3D58C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 922EEC93140EED1244B4C2A24A8407E8;
+			remoteInfo = "Pods-ConsecutiveAlertController_Example";
+		};
+		739331D140D77D8BFBB59F9756C4204A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA2FE34D08ABEA30B8E13A1D143FAE67;
+			remoteInfo = ConsecutiveAlertController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01883B9CEA1A5199AC1B2D6D93E7C43D /* Pods-ConsecutiveAlertController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ConsecutiveAlertController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		06937C24491CFC2B1F3BAE0326B2160B /* Pods-ConsecutiveAlertController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ConsecutiveAlertController_Example.modulemap"; sourceTree = "<group>"; };
+		09D7407BC57379728DACFEA1B0B425CC /* Pods-ConsecutiveAlertController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ConsecutiveAlertController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		15F9564FA0761D897DAA0B400C1CEE98 /* ConsecutiveAlertController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ConsecutiveAlertController-Info.plist"; sourceTree = "<group>"; };
+		16EE7EF74484063F2DDA71460A664F2F /* Pods-ConsecutiveAlertController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ConsecutiveAlertController_Tests-dummy.m"; sourceTree = "<group>"; };
+		1C4BBC1984E99E1A5754C2B31D85CEE7 /* Pods-ConsecutiveAlertController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ConsecutiveAlertController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		211AFA8C456CD9683EF8499DCB66500A /* Pods-ConsecutiveAlertController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ConsecutiveAlertController_Example-dummy.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		41E8D9A3A451E2EF9A27FEA9A055E25E /* ConsecutiveAlertController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ConsecutiveAlertController-dummy.m"; sourceTree = "<group>"; };
+		49F995AC51B0FBBD08907F2AC2EC6429 /* Pods-ConsecutiveAlertController_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ConsecutiveAlertController_Tests-Info.plist"; sourceTree = "<group>"; };
+		4D2D790E14F761C227D9A732CC6F15A1 /* Pods-ConsecutiveAlertController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ConsecutiveAlertController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		551662A1B9474DDB0590E338BFD0D90C /* Pods-ConsecutiveAlertController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ConsecutiveAlertController_Example-umbrella.h"; sourceTree = "<group>"; };
+		5AA28AC4230E4F6000CEFCD2 /* ConsecutiveAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConsecutiveAlertController.swift; path = ConsecutiveAlertController/Classes/ConsecutiveAlertController.swift; sourceTree = "<group>"; };
+		5AA28AC5230E4F6000CEFCD2 /* ConsecutiveAlertManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConsecutiveAlertManager.swift; path = ConsecutiveAlertController/Classes/ConsecutiveAlertManager.swift; sourceTree = "<group>"; };
+		5EC7D8BC4BFAE8D3EE3E07E47617F2D0 /* ConsecutiveAlertController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ConsecutiveAlertController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		620E9989857791F7FA1FAAE64828B782 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		683119493E04211A29E40B31D9DE304D /* ConsecutiveAlertController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ConsecutiveAlertController-umbrella.h"; sourceTree = "<group>"; };
+		6B4DB746B2B2727C37D753E22764D7B8 /* Pods-ConsecutiveAlertController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ConsecutiveAlertController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		72D84182B4D640C1C69A6810F0A45A01 /* Pods-ConsecutiveAlertController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ConsecutiveAlertController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7CB99A6356AD929B9D9546F51E370AD4 /* ConsecutiveAlertController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ConsecutiveAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		857EBF87DCEFA9C12EFDE09B742FA02D /* Pods-ConsecutiveAlertController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ConsecutiveAlertController_Tests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B55F71165B4D2D6D67713D8314080603 /* Pods_ConsecutiveAlertController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConsecutiveAlertController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B83C627AC6A2E2FE68680582CCF71B78 /* Pods-ConsecutiveAlertController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ConsecutiveAlertController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CD2A7750D2BE420F7609754637153970 /* Pods-ConsecutiveAlertController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ConsecutiveAlertController_Example-Info.plist"; sourceTree = "<group>"; };
+		D15DC9EBDB80D40A99FE3878E4FEF0CA /* Pods-ConsecutiveAlertController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ConsecutiveAlertController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D7EBCB21B84805D071F76C841AC0E2B1 /* ConsecutiveAlertController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ConsecutiveAlertController.xcconfig; sourceTree = "<group>"; };
+		DBFED809911731E9AFE4788EDB371C62 /* Pods-ConsecutiveAlertController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ConsecutiveAlertController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E6D2B4FBDB8F7B8D1749B7ED483D150A /* Pods-ConsecutiveAlertController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ConsecutiveAlertController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E8CB15D4676AB3869C1BDE15AE731178 /* Pods_ConsecutiveAlertController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConsecutiveAlertController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED2647558CF4AB9A09D9EFD30583CB38 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F3ED17BC0E169082EC567CB179CAAAF5 /* ConsecutiveAlertController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ConsecutiveAlertController.modulemap; sourceTree = "<group>"; };
+		F790EECCBA3FB70266C49A20D780F794 /* ConsecutiveAlertController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ConsecutiveAlertController-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67ACA087FEDFE1210BEFEA0658631119 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5236C124E33A985581E96ED1E0DBD20A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5CBBF04B789A83AEBFAA5125DF29396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E1B7D986ADE247937357B4BDB24300 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD9288FA984B0D3BAEF568FAFBE1A97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A96A780D3FFCD19D9BD2ECD6FBDCE44 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0391AC0AC828492BBE63FCB8975E9042 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3ED17BC0E169082EC567CB179CAAAF5 /* ConsecutiveAlertController.modulemap */,
+				D7EBCB21B84805D071F76C841AC0E2B1 /* ConsecutiveAlertController.xcconfig */,
+				41E8D9A3A451E2EF9A27FEA9A055E25E /* ConsecutiveAlertController-dummy.m */,
+				15F9564FA0761D897DAA0B400C1CEE98 /* ConsecutiveAlertController-Info.plist */,
+				F790EECCBA3FB70266C49A20D780F794 /* ConsecutiveAlertController-prefix.pch */,
+				683119493E04211A29E40B31D9DE304D /* ConsecutiveAlertController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ConsecutiveAlertController";
+			sourceTree = "<group>";
+		};
+		0933004ACAF7EBAAEFCAF9020AA2C42C /* Pods-ConsecutiveAlertController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				06937C24491CFC2B1F3BAE0326B2160B /* Pods-ConsecutiveAlertController_Example.modulemap */,
+				DBFED809911731E9AFE4788EDB371C62 /* Pods-ConsecutiveAlertController_Example-acknowledgements.markdown */,
+				72D84182B4D640C1C69A6810F0A45A01 /* Pods-ConsecutiveAlertController_Example-acknowledgements.plist */,
+				211AFA8C456CD9683EF8499DCB66500A /* Pods-ConsecutiveAlertController_Example-dummy.m */,
+				1C4BBC1984E99E1A5754C2B31D85CEE7 /* Pods-ConsecutiveAlertController_Example-frameworks.sh */,
+				CD2A7750D2BE420F7609754637153970 /* Pods-ConsecutiveAlertController_Example-Info.plist */,
+				551662A1B9474DDB0590E338BFD0D90C /* Pods-ConsecutiveAlertController_Example-umbrella.h */,
+				09D7407BC57379728DACFEA1B0B425CC /* Pods-ConsecutiveAlertController_Example.debug.xcconfig */,
+				01883B9CEA1A5199AC1B2D6D93E7C43D /* Pods-ConsecutiveAlertController_Example.release.xcconfig */,
+			);
+			name = "Pods-ConsecutiveAlertController_Example";
+			path = "Target Support Files/Pods-ConsecutiveAlertController_Example";
+			sourceTree = "<group>";
+		};
+		8F32D91880F4F63AFD8CB8C287D4ECD5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC01FB0CCAAD6FB59046E563BD735432 /* ConsecutiveAlertController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AC01FB0CCAAD6FB59046E563BD735432 /* ConsecutiveAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				5AA28AC4230E4F6000CEFCD2 /* ConsecutiveAlertController.swift */,
+				5AA28AC5230E4F6000CEFCD2 /* ConsecutiveAlertManager.swift */,
+				BA5B33D40EEFFBDF771881A7136F7E0D /* Pod */,
+				0391AC0AC828492BBE63FCB8975E9042 /* Support Files */,
+			);
+			name = ConsecutiveAlertController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BA5B33D40EEFFBDF771881A7136F7E0D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5EC7D8BC4BFAE8D3EE3E07E47617F2D0 /* ConsecutiveAlertController.podspec */,
+				620E9989857791F7FA1FAAE64828B782 /* LICENSE */,
+				ED2647558CF4AB9A09D9EFD30583CB38 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BDA4F2B1954B9AC38EFC714949D6F2F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CB99A6356AD929B9D9546F51E370AD4 /* ConsecutiveAlertController.framework */,
+				B55F71165B4D2D6D67713D8314080603 /* Pods_ConsecutiveAlertController_Example.framework */,
+				E8CB15D4676AB3869C1BDE15AE731178 /* Pods_ConsecutiveAlertController_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8F32D91880F4F63AFD8CB8C287D4ECD5 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				BDA4F2B1954B9AC38EFC714949D6F2F9 /* Products */,
+				D0AACEA1F16AD0C67F20688DBC61402D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D0AACEA1F16AD0C67F20688DBC61402D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0933004ACAF7EBAAEFCAF9020AA2C42C /* Pods-ConsecutiveAlertController_Example */,
+				E86378CA882815B163F913F87E6800C1 /* Pods-ConsecutiveAlertController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E86378CA882815B163F913F87E6800C1 /* Pods-ConsecutiveAlertController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				857EBF87DCEFA9C12EFDE09B742FA02D /* Pods-ConsecutiveAlertController_Tests.modulemap */,
+				B83C627AC6A2E2FE68680582CCF71B78 /* Pods-ConsecutiveAlertController_Tests-acknowledgements.markdown */,
+				E6D2B4FBDB8F7B8D1749B7ED483D150A /* Pods-ConsecutiveAlertController_Tests-acknowledgements.plist */,
+				16EE7EF74484063F2DDA71460A664F2F /* Pods-ConsecutiveAlertController_Tests-dummy.m */,
+				49F995AC51B0FBBD08907F2AC2EC6429 /* Pods-ConsecutiveAlertController_Tests-Info.plist */,
+				6B4DB746B2B2727C37D753E22764D7B8 /* Pods-ConsecutiveAlertController_Tests-umbrella.h */,
+				D15DC9EBDB80D40A99FE3878E4FEF0CA /* Pods-ConsecutiveAlertController_Tests.debug.xcconfig */,
+				4D2D790E14F761C227D9A732CC6F15A1 /* Pods-ConsecutiveAlertController_Tests.release.xcconfig */,
+			);
+			name = "Pods-ConsecutiveAlertController_Tests";
+			path = "Target Support Files/Pods-ConsecutiveAlertController_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6AEC64A784286D5AC6C76D8838FA8E13 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05B63598F374710E1D0A94C55E7A7D8F /* Pods-ConsecutiveAlertController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D5058933654EFFDFA40A80E626727C2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE6D69A1227F983F3C5DDC658B695F9 /* Pods-ConsecutiveAlertController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9B5ABD91085486F8DA7900F29D3B4A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CFA8D1841BD52E5C210FA66481C4B5B /* ConsecutiveAlertController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		922EEC93140EED1244B4C2A24A8407E8 /* Pods-ConsecutiveAlertController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3890CF807A7D69069C2A3DE75A4B9089 /* Build configuration list for PBXNativeTarget "Pods-ConsecutiveAlertController_Example" */;
+			buildPhases = (
+				6AEC64A784286D5AC6C76D8838FA8E13 /* Headers */,
+				FD214C0E65BFB0270494A5AAE59F13CB /* Sources */,
+				A5CBBF04B789A83AEBFAA5125DF29396 /* Frameworks */,
+				92FA16453F68C5FB834342DE9E6C8533 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72DA71EBBCE97F7C2C18B24154EABB36 /* PBXTargetDependency */,
+			);
+			name = "Pods-ConsecutiveAlertController_Example";
+			productName = "Pods-ConsecutiveAlertController_Example";
+			productReference = B55F71165B4D2D6D67713D8314080603 /* Pods_ConsecutiveAlertController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9C2838AD004D9E4DE1DDC6422C13195B /* Pods-ConsecutiveAlertController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ACD59542E5732BDD1AC1D243F109A44 /* Build configuration list for PBXNativeTarget "Pods-ConsecutiveAlertController_Tests" */;
+			buildPhases = (
+				9D5058933654EFFDFA40A80E626727C2 /* Headers */,
+				1F8BE7791BB6DFA24CD99567EA87F116 /* Sources */,
+				CCD9288FA984B0D3BAEF568FAFBE1A97 /* Frameworks */,
+				2B21348425B7237985DBFD7EC0863790 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				733BB49DDADFF3BDAEB7FBA45FC997DF /* PBXTargetDependency */,
+			);
+			name = "Pods-ConsecutiveAlertController_Tests";
+			productName = "Pods-ConsecutiveAlertController_Tests";
+			productReference = E8CB15D4676AB3869C1BDE15AE731178 /* Pods_ConsecutiveAlertController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DA2FE34D08ABEA30B8E13A1D143FAE67 /* ConsecutiveAlertController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5771F60DB9D6E2A454F62C86BE2E51DA /* Build configuration list for PBXNativeTarget "ConsecutiveAlertController" */;
+			buildPhases = (
+				FF9B5ABD91085486F8DA7900F29D3B4A /* Headers */,
+				11CE4ED4D17F4BAF9FED36D4E7C591F5 /* Sources */,
+				67ACA087FEDFE1210BEFEA0658631119 /* Frameworks */,
+				9BFF618F200648067CF1292035B4AF7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConsecutiveAlertController;
+			productName = ConsecutiveAlertController;
+			productReference = 7CB99A6356AD929B9D9546F51E370AD4 /* ConsecutiveAlertController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				TargetAttributes = {
+					922EEC93140EED1244B4C2A24A8407E8 = {
+						LastSwiftMigration = 1030;
+					};
+					9C2838AD004D9E4DE1DDC6422C13195B = {
+						LastSwiftMigration = 1030;
+					};
+					DA2FE34D08ABEA30B8E13A1D143FAE67 = {
+						LastSwiftMigration = 1030;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BDA4F2B1954B9AC38EFC714949D6F2F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA2FE34D08ABEA30B8E13A1D143FAE67 /* ConsecutiveAlertController */,
+				922EEC93140EED1244B4C2A24A8407E8 /* Pods-ConsecutiveAlertController_Example */,
+				9C2838AD004D9E4DE1DDC6422C13195B /* Pods-ConsecutiveAlertController_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B21348425B7237985DBFD7EC0863790 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92FA16453F68C5FB834342DE9E6C8533 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BFF618F200648067CF1292035B4AF7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11CE4ED4D17F4BAF9FED36D4E7C591F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA28AC6230E4F6000CEFCD2 /* ConsecutiveAlertController.swift in Sources */,
+				8CA7938BD4B6CDECCDDEB637AAFF7F7D /* ConsecutiveAlertController-dummy.m in Sources */,
+				5AA28AC9230E4F6000CEFCD2 /* ConsecutiveAlertManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F8BE7791BB6DFA24CD99567EA87F116 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA28AC8230E4F6000CEFCD2 /* ConsecutiveAlertController.swift in Sources */,
+				02BB0F9638052271916D79FB4FF6C2D6 /* Pods-ConsecutiveAlertController_Tests-dummy.m in Sources */,
+				5AA28ACB230E4F6000CEFCD2 /* ConsecutiveAlertManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD214C0E65BFB0270494A5AAE59F13CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA28AC7230E4F6000CEFCD2 /* ConsecutiveAlertController.swift in Sources */,
+				CC57DBDEBCA89A18414219839C619A8C /* Pods-ConsecutiveAlertController_Example-dummy.m in Sources */,
+				5AA28ACA230E4F6000CEFCD2 /* ConsecutiveAlertManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72DA71EBBCE97F7C2C18B24154EABB36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ConsecutiveAlertController;
+			target = DA2FE34D08ABEA30B8E13A1D143FAE67 /* ConsecutiveAlertController */;
+			targetProxy = 739331D140D77D8BFBB59F9756C4204A /* PBXContainerItemProxy */;
+		};
+		733BB49DDADFF3BDAEB7FBA45FC997DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ConsecutiveAlertController_Example";
+			target = 922EEC93140EED1244B4C2A24A8407E8 /* Pods-ConsecutiveAlertController_Example */;
+			targetProxy = 1C5A4E52C5D4FB6C24A51DAF65C3D58C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0612455DE0DBC85126594C3B5F58A1B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D15DC9EBDB80D40A99FE3878E4FEF0CA /* Pods-ConsecutiveAlertController_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ConsecutiveAlertController_Tests/Pods-ConsecutiveAlertController_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ConsecutiveAlertController_Tests/Pods-ConsecutiveAlertController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		263C72AEC5C3FDBD547BDD6AD673BA33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D2D790E14F761C227D9A732CC6F15A1 /* Pods-ConsecutiveAlertController_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ConsecutiveAlertController_Tests/Pods-ConsecutiveAlertController_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ConsecutiveAlertController_Tests/Pods-ConsecutiveAlertController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2B4681839E14F65EC7BEC950FCD732C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01883B9CEA1A5199AC1B2D6D93E7C43D /* Pods-ConsecutiveAlertController_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ConsecutiveAlertController_Example/Pods-ConsecutiveAlertController_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ConsecutiveAlertController_Example/Pods-ConsecutiveAlertController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8063CED8624ABD6AD52AECD98E0E3C40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7EBCB21B84805D071F76C841AC0E2B1 /* ConsecutiveAlertController.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ConsecutiveAlertController/ConsecutiveAlertController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ConsecutiveAlertController/ConsecutiveAlertController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ConsecutiveAlertController/ConsecutiveAlertController.modulemap";
+				PRODUCT_MODULE_NAME = ConsecutiveAlertController;
+				PRODUCT_NAME = ConsecutiveAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C0A1DEFFC3BDBF568EBA3DA53D02E410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09D7407BC57379728DACFEA1B0B425CC /* Pods-ConsecutiveAlertController_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ConsecutiveAlertController_Example/Pods-ConsecutiveAlertController_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ConsecutiveAlertController_Example/Pods-ConsecutiveAlertController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EEAD714271FCAE553243A320780D927E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7EBCB21B84805D071F76C841AC0E2B1 /* ConsecutiveAlertController.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ConsecutiveAlertController/ConsecutiveAlertController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ConsecutiveAlertController/ConsecutiveAlertController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ConsecutiveAlertController/ConsecutiveAlertController.modulemap";
+				PRODUCT_MODULE_NAME = ConsecutiveAlertController;
+				PRODUCT_NAME = ConsecutiveAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3890CF807A7D69069C2A3DE75A4B9089 /* Build configuration list for PBXNativeTarget "Pods-ConsecutiveAlertController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0A1DEFFC3BDBF568EBA3DA53D02E410 /* Debug */,
+				2B4681839E14F65EC7BEC950FCD732C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5771F60DB9D6E2A454F62C86BE2E51DA /* Build configuration list for PBXNativeTarget "ConsecutiveAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8063CED8624ABD6AD52AECD98E0E3C40 /* Debug */,
+				EEAD714271FCAE553243A320780D927E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ACD59542E5732BDD1AC1D243F109A44 /* Build configuration list for PBXNativeTarget "Pods-ConsecutiveAlertController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0612455DE0DBC85126594C3B5F58A1B1 /* Debug */,
+				263C72AEC5C3FDBD547BDD6AD673BA33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

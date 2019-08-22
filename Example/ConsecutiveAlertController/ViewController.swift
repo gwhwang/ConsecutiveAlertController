@@ -7,17 +7,28 @@
 //
 
 import UIKit
+import ConsecutiveAlertController
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    deinit {
+        print(#function)
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func action(_ sender: Any) {
+        let alert = UIAlertController(title: "Hello", message: "World!!!!!!!!!!!!!", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .cancel))
+        alert.presentConsecutively(on: self, animated: true)
+
+        let alert2 = UIAlertController(title: "Hello", message: "World2!!!!!!!!!!!!!", preferredStyle: .alert)
+        alert2.addAction(UIAlertAction(title: "OK", style: .cancel))
+        alert2.presentConsecutively(on: self, animated: true)
+
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+            let alert3 = UIAlertController(title: "Hello", message: "World3!!!!!!!!!!!!!", preferredStyle: .alert)
+            alert3.addAction(UIAlertAction(title: "OK", style: .cancel))
+            alert3.presentConsecutively(on: self, animated: true)
+        }
     }
 
 }

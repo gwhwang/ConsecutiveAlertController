@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		14353E2F52B5C5EB73D93688 /* Pods-ConsecutiveAlertController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConsecutiveAlertController_Example.debug.xcconfig"; path = "Target Support Files/Pods-ConsecutiveAlertController_Example/Pods-ConsecutiveAlertController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1BCDF441380215E0E73C58D5 /* Pods_ConsecutiveAlertController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConsecutiveAlertController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		37F0348C59BEEE76F17A6A44 /* ConsecutiveAlertController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ConsecutiveAlertController.podspec; path = ../ConsecutiveAlertController.podspec; sourceTree = "<group>"; };
+		37F0348C59BEEE76F17A6A44 /* ConsecutiveAlertController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ConsecutiveAlertController.podspec; path = ../ConsecutiveAlertController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* ConsecutiveAlertController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConsecutiveAlertController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,9 +43,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		73C3AFF4E9E90CE2EEFD3F8B /* Pods-ConsecutiveAlertController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConsecutiveAlertController_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ConsecutiveAlertController_Tests/Pods-ConsecutiveAlertController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CEB5CDA3C767299081777E6E /* Pods-ConsecutiveAlertController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConsecutiveAlertController_Example.release.xcconfig"; path = "Target Support Files/Pods-ConsecutiveAlertController_Example/Pods-ConsecutiveAlertController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E9A735E3D6BB64079F5046EC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E9A735E3D6BB64079F5046EC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E9CF153B1105EC58217D6977 /* Pods_ConsecutiveAlertController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConsecutiveAlertController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F45313B5853F4500FEDC2264 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F45313B5853F4500FEDC2264 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FD2ADB009191EE1B8111D4EA /* Pods-ConsecutiveAlertController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConsecutiveAlertController_Tests.release.xcconfig"; path = "Target Support Files/Pods-ConsecutiveAlertController_Tests/Pods-ConsecutiveAlertController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				73C3AFF4E9E90CE2EEFD3F8B /* Pods-ConsecutiveAlertController_Tests.debug.xcconfig */,
 				FD2ADB009191EE1B8111D4EA /* Pods-ConsecutiveAlertController_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -423,7 +423,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -469,7 +469,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -483,6 +483,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ConsecutiveAlertController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -498,6 +499,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ConsecutiveAlertController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";

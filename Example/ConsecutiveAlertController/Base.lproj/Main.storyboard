@@ -1,30 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="lDr-Po-e2f">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <scene sceneID="FXw-wP-ztq">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="ConsecutiveAlertController_Example" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                <viewController id="2AZ-2d-7in" customClass="ViewController" customModule="AlertSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UNc-wB-hQ5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eya-VJ-ipP">
+                                <rect key="frame" x="168" y="148" width="39" height="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="15"/>
+                                <state key="normal" title="Alert"/>
+                                <connections>
+                                    <action selector="action:" destination="2AZ-2d-7in" eventType="touchUpInside" id="XcP-91-sIe"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Eya-VJ-ipP" firstAttribute="centerX" secondItem="UNc-wB-hQ5" secondAttribute="centerX" id="Dox-nB-ucH"/>
+                            <constraint firstItem="Eya-VJ-ipP" firstAttribute="top" secondItem="fL0-uq-XBB" secondAttribute="top" constant="84" id="UqN-nr-IYp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fL0-uq-XBB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="reY-pd-Wso"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xsh-xO-AIu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-82568" y="629"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="YE6-pu-kPz">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lDr-Po-e2f" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="W1x-Qo-gRE">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="8fe-ER-RUN" kind="relationship" relationship="rootViewController" id="5Je-me-Hrt"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vd4-dl-Dky" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-84255" y="629"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="e0b-PX-yZy">
+            <objects>
+                <viewController id="8fe-ER-RUN" customClass="ViewController" customModule="AlertSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bYn-Et-fnp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CKC-1V-2qv">
+                                <rect key="frame" x="168" y="148" width="39" height="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="15"/>
+                                <state key="normal" title="Alert"/>
+                                <connections>
+                                    <action selector="action:" destination="8fe-ER-RUN" eventType="touchUpInside" id="DFO-Hp-2bM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cp5-p9-smb">
+                                <rect key="frame" x="170" y="197" width="35" height="30"/>
+                                <state key="normal" title="Push"/>
+                                <connections>
+                                    <segue destination="2AZ-2d-7in" kind="show" id="T8y-0R-97k"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Cp5-p9-smb" firstAttribute="centerX" secondItem="bYn-Et-fnp" secondAttribute="centerX" id="6Yn-BH-FXk"/>
+                            <constraint firstItem="CKC-1V-2qv" firstAttribute="top" secondItem="Mx0-7D-NfT" secondAttribute="top" constant="84" id="7kS-Rz-w32"/>
+                            <constraint firstItem="Cp5-p9-smb" firstAttribute="top" secondItem="CKC-1V-2qv" secondAttribute="bottom" constant="19" id="IlW-gR-PJR"/>
+                            <constraint firstItem="CKC-1V-2qv" firstAttribute="centerX" secondItem="bYn-Et-fnp" secondAttribute="centerX" id="ryT-yy-rVe"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Mx0-7D-NfT"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="cct-Z4-aVB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="grz-GF-LIw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-83413" y="629"/>
         </scene>
     </scenes>
 </document>
