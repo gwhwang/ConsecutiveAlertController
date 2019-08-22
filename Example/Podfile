@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ConsecutiveAlertController_Example' do
+  pod 'ConsecutiveAlertController', :path => '../'
+
+  target 'ConsecutiveAlertController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
