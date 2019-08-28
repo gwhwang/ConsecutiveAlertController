@@ -13,7 +13,7 @@ class ConsecutiveAlertController: UIAlertController {
     convenience init(alertController ac: UIAlertController) {
         self.init(title: ac.title, message: ac.message, preferredStyle: ac.preferredStyle)
         for action in ac.actions {
-            addAction(action)
+            addAction(action.copy() as! UIAlertAction)
         }
     }
 
@@ -22,10 +22,6 @@ class ConsecutiveAlertController: UIAlertController {
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
         manager.cueNext()
-    }
-
-    deinit {
-        print(#function)
     }
 
 }
