@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ConsecutiveAlertController'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Can make to show alert as consecutive.'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ The UIAlertView has been replaced with a UIAlertController, so the parent view i
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'beomcheol' => 'beomcheol.shin@deliveryhero.co.kr' }
-  s.source           = { :git => 'https://github.com/beomcheol/ConsecutiveAlertController.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/gwhwang/ConsecutiveAlertController.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.swift_version    = '4.0'
 
